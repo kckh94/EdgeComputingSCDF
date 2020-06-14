@@ -51,7 +51,7 @@ The code included in this code pattern runs in a Jupyter Notebook. The notebook 
 
 ## Dataset
 
-![dataset](/datasets/training_video.mp4)
+* The video used to for pre-processing can be downloaded from [here](datasets/training_video.mp4)
 
 ## Flow
 
@@ -68,3 +68,6 @@ Additional:
 1. Get list of buckets in COS
 
 ## Sample output
+
+
+![graph](/pictures/graph.jpg)
