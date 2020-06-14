@@ -4,8 +4,11 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Included components](#Included-components)
 * [Installation](#installation)
+* [Dataset](#Dataset)
+* [Flow](#flow)
+* [Sample output](#Sample-output)
 
 ## General Info
 
