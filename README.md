@@ -1,6 +1,6 @@
 # Edge Computing to pre-process livestream videos and be uploaded to IBM Cloud Object Storage (COS)
 
-
+![alt text](pictures/frame differencing.png)
 
 ## Table of contents
 * [General info](#general-info)
