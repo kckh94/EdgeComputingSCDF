@@ -36,21 +36,22 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dep
 
 
 ```bash
-
-
 pip install ibm-cos-sdk==2.0.1 #IBM SDK for Python
 pip install os-win 
 pip install opencv-python
 pip install pytest-shutil
 pip install glob2
 pip install numpy
-
-
 ```
 
 ### Jupyter Notebooks
 
 The code included in this code pattern runs in a Jupyter Notebook. The notebook itself does not require PowerAI or Power Systems (only access to the deployed API). To run the Jupyter Notebook locally, install it using Anaconda.  The installation instructions are [here](https://jupyter.readthedocs.io/en/latest/install.html).
+
+
+## Dataset
+
+![dataset](/datasets/training_video.mp4)
 
 ## Flow
 
