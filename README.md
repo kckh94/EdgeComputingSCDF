@@ -1,4 +1,4 @@
-# Edge Computing to pre-process livestream videos and be uploaded to IBM Cloud Object Storage (COS)
+# Edge Computing to pre-process livestream videos to IBM Cloud Object Storage (COS)
 
 ![framedifferencing](/pictures/framedifferencing.jpeg)
 
@@ -69,5 +69,6 @@ Additional:
 
 ## Sample output
 
-
 ![graph](/pictures/graph.jpg)
+
+After the video has been processed, the frames from the video was reduced and the total disk size was reduced to 5mb, with a reduction from the original video by approximately 97%.
