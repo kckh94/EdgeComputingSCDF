@@ -1,15 +1,19 @@
+# Edge Computing to pre-process livestream videos and be uploaded to IBM Cloud Object Storage (COS)
+
+
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-# General Info
+## General Info
 
-This project is 
+In this code pattern, we will take in livestream video as input and pre-process the video using OpenCV, Jupyter Notebook and other utility modules for file management. The code will load video into the Jupyter Notebook where we will process every individual frames and is locally stored. 
 
-# Foobar
+With the locally stored image, the images are then parsed and processed for detection of movement between frames using frame differencing technique.  
 
-Foobar is a Python library for dealing with word pluralization.
+
 
 ## Installation
 
@@ -39,10 +43,3 @@ foobar.pluralize('goose') # returns 'geese'
 foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
