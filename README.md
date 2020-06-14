@@ -5,15 +5,28 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Installation](#installation)
 
 ## General Info
+
+### What is edge computing
+
+
 
 In this code pattern, we will take in livestream video as input and pre-process the video using OpenCV, Jupyter Notebook and other utility modules for file management. The code will load video into the Jupyter Notebook where we will process every individual frames and is locally stored. 
 
 With the locally stored image, the images are then parsed and processed for detection of movement between frames using frame differencing technique.  
 
+## Included components
 
+* [IBM Cloud](https://www.ibm.com/sg-en/cloud/object-storage): IBM Cloud Object Storage is designed to support exponential data growth and cloud-native workloads. With built-in high-speed file transfer capabilities, cross-region offerings, and integrated services, IBM Cloud Object Storage can help you securely leverage your data.
+* [Jupyter Notebook](https://jupyter.org/): An open source web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text.
+* [OpenCV](https://opencv.org): Open source computer vision library.
+
+## Featured technologies
+
+* [IBM Cloud](https://www.ibm.com/sg-en/cloud/object-storage): Accessing computer and information technology resources through the Internet.
+* [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 
 ## Installation
 
@@ -33,13 +46,22 @@ pip install numpy
 
 ```
 
-## Usage
+### Jupyter Notebooks
 
-```python
-import foobar
+The code included in this code pattern runs in a Jupyter Notebook. The notebook itself does not require PowerAI or Power Systems (only access to the deployed API). To run the Jupyter Notebook locally, install it using Anaconda.  The installation instructions are [here](https://jupyter.readthedocs.io/en/latest/install.html).
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+## Flow
 
+1. Livestream video from server to local machine using credentials
+2. Configuration for IBM Cloud Object Storage (API key etc)
+3. Local configuration for output - Create or clean the directories
+4. Read livestream video from local directory
+5. Parse and explode the video file into JPEGs
+6. Using frame differencing to detect motion between frames
+7. Create and upload new bucket with images to COS
+
+Additional:
+
+1. Get list of buckets in COS
+
+## Sample output
