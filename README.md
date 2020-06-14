@@ -13,7 +13,7 @@
 
 Edge Computing brings computation and data storage closer to the devices where it is being gathered, rather than relying on a central location where it can be situated miles away. As such, even with real time data, it does suffer latency issues that can affect the application's performance. This way organisation can save cost by having processing done locally while reducing the amount of data that needs to be processed in a centralised or cloud based locaiton. 
 
-![edgecomputing](/pictures/edgecomputing.jpeg)
+![edgecomputing](/pictures/edgecomputing.jpg)
 
 In this code pattern, we will take in livestream video as input and pre-process the video using OpenCV, Jupyter Notebook and other utility modules for file management. The code will load video into the Jupyter Notebook where we will process every individual frames and is locally stored. 
 
